@@ -281,13 +281,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0419D0751A43B837009C86A0 /* Image */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Image;
-			sourceTree = "<group>";
-		};
 		0419D08F1A43BD55009C86A0 /* StoreTool */ = {
 			isa = PBXGroup;
 			children = (
@@ -585,7 +578,6 @@
 				044FA3421A4029660069A867 /* Layout */,
 				048710DD1A3938C40060684A /* Base */,
 				048710E01A3938C40060684A /* Category */,
-				048710E31A3938C40060684A /* Controller */,
 				048710E41A3938C40060684A /* Model */,
 				048710E51A3938C40060684A /* Tool */,
 				048710E81A3938C40060684A /* View */,
@@ -615,13 +607,6 @@
 				04E642AD1A64B27400FDEFF7 /* NSMutableAttributedString+TitleTreatment.m */,
 			);
 			path = Category;
-			sourceTree = "<group>";
-		};
-		048710E31A3938C40060684A /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		048710E41A3938C40060684A /* Model */ = {
@@ -757,7 +742,6 @@
 				043FE1951A36E205005F3EBA /* ComicReader-Prefix Header.h */,
 				043FE1581A369DF8005F3EBA /* Class */,
 				04ACB6451A2D586200A9FAA6 /* Images.xcassets */,
-				0419D0751A43B837009C86A0 /* Image */,
 				04402F4D1B08B6C300788DE7 /* resource */,
 				04ACB61B1A2D50DD00A9FAA6 /* Info.plist */,
 				04ACB61C1A2D50DD00A9FAA6 /* main.m */,
@@ -1171,7 +1155,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1207,7 +1191,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
